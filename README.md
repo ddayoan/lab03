@@ -1,16 +1,16 @@
 # lab03
 
 ## What do you think is the type of each of the following fields? 
-* private int count; 
-* private Student representative; 
-* private Server host; 
+* private int count; the type is interger
+* private Student representative; the type is representative
+* private Server host; the type is host
 
 ## What are the names of the following fields? 
-* private boolean alive;
-* private Person tutor; 
-* private Game game; 
+* private boolean alive; the field name is alive
+* private Person tutor; the field name is tutor
+* private Game game; the field name is game
 
-## From what you know about the naming conventions for classes, which of the type names in teh above questions would you say are class names? 
+## From what you know about the naming conventions for classes, which of the type names in the above questions would you say are class names? The class names above are Student, Server, Person, and Game
 
 ## In the following field declaration from the `TicketMachine` class  
 ```
