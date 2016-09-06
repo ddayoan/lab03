@@ -35,16 +35,17 @@ public Book(String title, double price)
 ```
 The parameters of the above constructors are String title and double price, their type is double price.
 ## Can you guess what types some of the `Book` class’s fields might be, from the parameters in its constructor? Can you assume anything about the names of its fields?
-
+A possible type of the 'Book' class could be author, it could be catagorized by its author.
 
 ## Suppose that the class `Pet` has a field called `name` that is of the type `String`. Write an assignment statement in the body of the following constructor so that the `name` field will be initialized with the value of the constructor’s parameter.
 ```
 public Pet(String petsName)
-{
+{ name= petsName;
 }
 ```
 ## The following object creation will result in the constructor of the `Date` class being called. Can you write the constructor’s header?
 ```
-new Date("March", 23, 1861)
+new Date("March", 23, 1861) 
 ```
 Try to give meaningful names to the parameters.
+public Date(String month, int day, int year)
